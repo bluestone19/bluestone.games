@@ -4,6 +4,7 @@
 
 h1 {
     clear: both;
+    text-align: center;
 }
 
 body {
@@ -21,6 +22,8 @@ ul.topnav {
     margin: 0;
     padding: 0;
     padding-bottom: 40px;
+    width: max-content;
+    margin: auto;
 }
 
 ul.topnav > li {
