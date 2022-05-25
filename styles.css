@@ -29,6 +29,14 @@ ul.topnav > li {
     display: inline;
 }
 
+a {
+    color:yellow
+}
+
+a:visited {
+    color:orange
+}
+
 ul.topnav > li a{
     border-style: solid;
     border-width: 3px;
