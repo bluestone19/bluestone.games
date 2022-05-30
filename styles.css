@@ -12,8 +12,14 @@ h1 {
 }
 
 body {
-    background-color: #00076a;
+    background-color: #14142a;
     color: #fdffbf;
+}
+
+div.pagebody {
+    background-color: #00076a;
+    margin: 0% 15% 0% 15%;
+    padding: 8px 10% 32px 10%;
 }
 
 em {
@@ -22,9 +28,9 @@ em {
 }
 
 div.gamebox {
-    border-style: solid;
+    border-style: outset;
     border-color: white;
-    border-width: 2px;
+    border-width: 16px;
     border-radius: 8px;
     width: 500px;
     height: 400px;
@@ -43,6 +49,8 @@ p.gb-release {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 ul.topnav {
