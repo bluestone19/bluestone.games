@@ -28,9 +28,9 @@ em {
 }
 
 div.gamebox {
-    border-style: outset;
-    border-color: white;
-    border-width: 16px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
     border-radius: 8px;
     width: 500px;
     height: 400px;
@@ -38,7 +38,21 @@ div.gamebox {
     text-align: center;
     display: flexbox;
     box-shadow: 0px 8px 6px #14142a;
-    background-image: linear-gradient(#14142a, #00076a);
+    background-image: linear-gradient(to bottom right, #00076a, #14142a);
+}
+
+div.gamescreen {
+    border-style: outset;
+    border-color: white;
+    border-width: 8px;
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    display: flexbox;
+    background-color: black;
 }
 
 p.gb-release {
