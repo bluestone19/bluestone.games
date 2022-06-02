@@ -16,6 +16,12 @@ body {
     color: #fdffbf;
 }
 
+body.games {
+    background-image: url(images/GamesBG.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 div.pagebody {
     background-color: #00076a;
     margin: 0% 15% 0% 15%;
