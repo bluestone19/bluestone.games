@@ -9,6 +9,10 @@
     margin-right: auto;
 }
 
+html {
+    min-height: 100%;
+}
+
 h1 {
     clear: both;
     text-align: center;
@@ -20,10 +24,29 @@ body {
     margin: 0;
 }
 
+body.no-bg {
+    background-color: transparent;
+    color: #fdffbf;
+    margin: 0;
+}
+
+body.home {
+    background-image: url(images/Homepage.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
 body.games {
     background-image: url(images/GamesBG.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: bottom;
+}
+
+body.contact {
+    background-image: url(images/Mailroom.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    min-height: 100%;
 }
 
 iframe.pico8 {
@@ -54,6 +77,11 @@ div.pagebody {
     margin: 0% 15% 0% 15%;
     padding: 8px 10% 32px 10%;
 }
+
+body.home div.pagebody {
+    margin-right: 50%;
+    padding: 8px 5% 32px 5%;
+} 
 
 em {
     font-weight: bold;
