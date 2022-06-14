@@ -42,11 +42,22 @@ body.games {
     background-position: bottom;
 }
 
+body.about {
+    background-image: url(images/Fileroom.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+body.links {
+    background-image: url(images/LinkHallway.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
 body.contact {
     background-image: url(images/Mailroom.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    min-height: 100%;
 }
 
 iframe.pico8 {
@@ -74,6 +85,7 @@ textarea {
 
 div.pagebody {
     background-color: #00076a;
+    border-radius: 8px;
     margin: 0% 15% 0% 15%;
     padding: 8px 10% 32px 10%;
 }
